@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{ecee7ef8-30b6-40a3-8ee1-b2d1c3343f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{c3a9d8a2-dfc4-430b-a792-a645abe9c35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\23Mode">
+      <UniqueIdentifier>{cf9dbc3f-75eb-47c5-88a7-02d57c2bc62c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Adapter.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Bridge.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Builder.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\ChainOfResponsibility.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Command.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Composite.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Decorator.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Facade.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Factory.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Flyweight.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Interpreter.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Iterator.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Mediator.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Memento.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Observer.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Prototype.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Proxy.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Singleton.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\State.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Strategy.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\TemplateMethod.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\23Mode\Visitor.h">
+      <Filter>source\23Mode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\public.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\delegate.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tool\My_unique_ptr.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
