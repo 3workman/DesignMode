@@ -36,7 +36,7 @@ public:
 private:
 	_Ty* _ptr; // 将实值指针的变动限定在类内
 
-	/*优化：
+	/*优化：(见"Observer.h")
 			1、在实值指针类中加入引用计数
 			2、void AddUseNum() { ++m_useNum; }
 			3、virtual ~_Ty() { "此处禁止清理数据" } // delete操作：先调析构函数，再调operator delete
