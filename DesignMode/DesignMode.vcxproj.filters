@@ -97,14 +97,14 @@
     <ClInclude Include="..\source\23Mode\Visitor.h">
       <Filter>source\23Mode</Filter>
     </ClInclude>
-    <ClInclude Include="..\source\public.h">
-      <Filter>source</Filter>
-    </ClInclude>
     <ClInclude Include="..\source\delegate.h">
       <Filter>source</Filter>
     </ClInclude>
     <ClInclude Include="..\tool\My_unique_ptr.h">
       <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="..\source\public.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
