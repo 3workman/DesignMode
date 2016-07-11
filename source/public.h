@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+#include <assert.h>
 
 #include <set>
 #include <map>
@@ -8,14 +10,6 @@
 #include <queue>
 #include <stack>
 #include <string>
-#include <sstream>
-#include <iostream>
-#include <cassert> 
-#include <functional>
-
-#include <windows.h>
-
-#include "..\tool\My_unique_ptr.h"
 
 using namespace std;
 
